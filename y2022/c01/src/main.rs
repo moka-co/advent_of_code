@@ -51,7 +51,7 @@ fn max_three_calories_elf(contents: &String) -> i32 {
 }
 
 fn main() {
-    let filepath = String::from("/home/kurush/prog/advent-of-code/2022/challenge_1/input");
+    let filepath = String::from("input");
 
     let contents = fs::read_to_string(filepath)
         .expect("Cannot read file");
