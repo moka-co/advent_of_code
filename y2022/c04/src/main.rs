@@ -42,28 +42,4 @@ fn main() {
 
     println!("Fully contained:{counter}\nOverlaps: {overlaps}");
 
-    /*
-    let target = "1-11,1-44";
-    //let res = extract_couples(target);
-    let t = extract_couples2(target);
-    let integers : Vec<i32> = t.iter().map(|x| x.parse::<i32>().unwrap()).collect();
-    for x in integers.iter() { println!("{}",x); }
-    println!{"{:?}",t};
-    
-    //let r1 : HashSet<i32> = [0..4].into_iter().collect::<HashSet<i32>>();
-    let first: Vec<i32> = (integers[0]..integers[1]).collect();
-    let mut a: HashSet<i32> = (integers[0]..integers[1]).collect();
-
-    let second: Vec<i32> = (integers[2]..integers[3]).collect();
-    //let mut b: HashSet<i32> = second.into_iter().collect();
-    let mut b : HashSet<i32> = (integers[2]..integers[3]).collect();
-    println!("{:?}",&a);
-    println!("{:?}",&b);
-
-    if  a.is_subset(&b) || b.is_subset(&a) {
-        println!("GOT EM!\n");
-    }
-
-    */
-
 }
